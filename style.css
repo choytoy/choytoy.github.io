@@ -1,0 +1,403 @@
+@font-face {
+    font-family: "Space Mono";
+    src: url(/Fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Fucked Olympia";
+    src: url("/Fonts/fucked_olympia_j/9FUKOLYM.TTF");
+}
+
+@font-face {
+    font-family: "Terminal Grotesque";
+    src: url("/Fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf");
+}
+
+body,
+html {
+    font-family: "Space Mono", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    height: 100vh;
+}
+
+#homeNavBase {
+    position: absolute;
+    top: -130px;
+}
+
+.homeHidden {
+    position: absolute;
+    top: -130px;
+    display: none;
+}
+
+.homeHover {
+    position: absolute;
+    top: -130px;
+    display: block;
+}
+
+#navMap {
+    width: 1152px;
+    height: 768px;
+    position: absolute;
+    top: -130px;
+}
+
+#navMapAbout {
+    height: 500px;
+    width: 275px;
+    /* background-color: rgba(153, 205, 50, 0.585); */
+    z-index: 3;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    border-radius: 50%;
+}
+
+#navMapFiber {
+    height: 70px;
+    width: 150px;
+    /* background-color: rgba(51, 76, 215, 0.537); */
+    z-index: 3;
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    rotate: 25deg;
+    border-radius: 25%;
+}
+
+#navMapPhoto {
+    height: 80px;
+    width: 100px;
+    /* background-color: rgba(215, 51, 127, 0.537); */
+    z-index: 3;
+    position: absolute;
+    top: 350px;
+    left: 785px;
+    border-radius: 25%;
+}
+
+#navMapIllus {
+    height: 115px;
+    width: 150px;
+    /* background-color: rgba(215, 51, 51, 0.537); */
+    z-index: 3;
+    position: absolute;
+    top: 450px;
+    left: 165px;
+    rotate: -20deg;
+    border-radius: 25%;
+}
+
+#navMapCode {
+    height: 225px;
+    width: 400px;
+    /* background-color: rgba(51, 193, 215, 0.537); */
+    z-index: 2;
+    position: absolute;
+    top: 115px;
+    left: 375px;
+    border-radius: 25%;
+}
+
+.indexNav a {
+    text-decoration: none;
+    padding: 0px 5px;
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+
+.indexNav a:hover {
+    color: rgb(95, 95, 95);
+    background-color: rgb(255, 191, 0);
+    ;
+}
+
+menu {
+    height: 5%;
+    position: fixed;
+    width: 100%;
+    border-bottom: solid 1px;
+    background-color: white;
+    margin-top: 0px;
+    z-index: 3;
+}
+
+main {
+    position: absolute;
+    top: 200px;
+    margin: 0px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.typeTitle {
+    font-family: "Terminal Grotesque", "Fucked Olympia", 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 100%;
+    height: 100px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pageSect {
+    max-width: 1000px;
+    height: 300px;
+    display: flex;
+    padding-bottom: 100px;
+
+}
+
+.blurbC {
+    width: 860px;
+    padding: 0px;
+    margin-top: -50px;
+}
+
+.blurbR {
+    width: 500px;
+    height: 300px;
+    margin-left: 60px;
+    align-content: center;
+}
+
+.blurbL {
+    width: 500px;
+    height: 300px;
+    margin-right: 60px;
+    align-content: center;
+
+}
+
+.indexNav {
+    list-style-type: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 10px;
+}
+
+.indexNav li {
+    display: inline;
+    padding: 0px 5px;
+}
+
+footer {
+    font-size: 10px;
+    color: gray;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top: solid 1px;
+    height: 8%;
+    background-color: white;
+    z-index: 5;
+}
+
+.footerText {
+    padding: 10px;
+}
+
+.artifIntState {
+    position: absolute;
+    width: 700px;
+    right: 5px;
+    bottom: 18px;
+}
+
+.spriteRow {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.sprite {
+    display: inline-flex;
+    padding: 30px 40px;
+    outline: solid 1px;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+
+#indexBod {
+    background-color: black;
+}
+
+#aboutImg1 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 37% 80%;
+    outline: solid 1px black;
+    transition: filter ease-in .5s !important;
+}
+
+#aboutImg2 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 37% 80%;
+    outline: solid 1px black;
+    transition: filter ease-in .5s !important;
+}
+
+#aboutImg3 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    outline: solid 1px black;
+    transition: filter ease-in .5s !important;
+}
+
+.aboutImg:hover {
+    filter: grayscale(100%) !important;
+}
+
+#backTape {
+    z-index: -1;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 100%;
+    filter: contrast(1.75) grayscale(90%);
+}
+
+.secImg {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 37% 80%;
+    outline: solid 1px black;
+    transition: filter ease-in .5s !important;
+}
+
+#backShell {
+    z-index: -1;
+    position: absolute;
+    right: 45px;
+    top: 60px;
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    object-position: 100%;
+    filter: grayscale(90%) brightness(1.75) contrast(.75);
+    rotate: 135deg;
+}
+
+.tabCont {
+    z-index: 4;
+    position: fixed;
+    padding: 5px 10px;
+    border: solid 1px black;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+}
+
+.tabCont a {
+    text-decoration: none;
+    color: white;
+    background-color: none;
+}
+
+#tabMacro {
+    right: 200px;
+    top: 9px;
+    background-color: white;
+}
+
+#tabTravel {
+    right: 119px;
+    top: 9px;
+    background-color: rgb(234, 233, 233);
+}
+
+#tabLocal {
+    color: rgb(241, 241, 241);
+    right: 49px;
+    top: 9px;
+    background-color: rgb(31, 31, 31);
+}
+
+#tabBio {
+    color: rgb(241, 241, 241);
+    right: 270px;
+    top: 9px;
+    background-color: rgb(31, 31, 31);
+}
+
+.tabActive {
+    padding-bottom: 6px !important;
+}
+
+#photobioJump {
+    z-index: 3;
+    position: fixed;
+    top: 200px;
+    color: white !important;
+}
+
+#phototravelJump {
+    z-index: 3;
+    position: fixed;
+    top: 200px;
+
+}
+
+.jumpLinks {
+    list-style-type: none;
+
+}
+
+.jumpLinks li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#photobioJump .jumpLinks li a {
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+}
+
+.jumpLinks li a {
+    text-decoration: none;
+    color: rgb(76, 76, 76);
+}
+
+.colSecondary {
+    color: rgb(195, 194, 194);
+    margin-left: 15px;
+}
+
+#bodyTravel {
+    background-color: rgb(234, 233, 233);
+}
+
+#bodyBio {
+    background-color: black;
+    color: white;
+}
+
+#bodyLocal {
+    background-color: black;
+    color: white;
+}
