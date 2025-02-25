@@ -16,10 +16,9 @@
 body,
 html {
     font-family: "Space Mono", serif;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px;
     padding: 0px;
-    zoom: 90%;
 }
 
 
@@ -173,14 +172,14 @@ p {
 }
 
 .blurbR {
-    width: 500px;
+    width: 700px;
     height: 300px;
     margin-left: 60px;
     align-content: center;
 }
 
 .blurbL {
-    width: 500px;
+    width: 700px;
     height: 300px;
     margin-right: 60px;
     align-content: center;
