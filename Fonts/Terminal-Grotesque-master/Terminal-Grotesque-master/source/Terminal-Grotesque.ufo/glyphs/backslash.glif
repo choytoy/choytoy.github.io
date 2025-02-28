@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="backslash" format="1">
   <advance width="497"/>
-  <unicode hex="005c"/>
+  <uniinteraction hex="005c"/>
   <outline>
     <contour>
       <point x="344" y="-64" type="line" smooth="no"/>

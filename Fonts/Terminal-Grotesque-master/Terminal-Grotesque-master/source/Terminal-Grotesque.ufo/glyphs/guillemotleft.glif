@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemotleft" format="1">
   <advance width="558"/>
-  <unicode hex="00ab"/>
+  <uniinteraction hex="00ab"/>
   <outline>
     <contour>
       <point x="243" y="64" type="line" smooth="no"/>

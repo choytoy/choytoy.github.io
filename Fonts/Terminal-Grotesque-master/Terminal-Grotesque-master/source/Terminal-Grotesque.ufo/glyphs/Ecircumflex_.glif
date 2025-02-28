@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecircumflex" format="1">
   <advance width="500"/>
-  <unicode hex="00ca"/>
+  <uniinteraction hex="00ca"/>
   <outline>
     <contour>
       <point x="57" y="0" type="line" smooth="no"/>

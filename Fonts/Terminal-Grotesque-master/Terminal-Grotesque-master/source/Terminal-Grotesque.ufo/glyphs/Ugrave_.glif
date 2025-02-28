@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ugrave" format="1">
   <advance width="594"/>
-  <unicode hex="00d9"/>
+  <uniinteraction hex="00d9"/>
   <outline>
     <contour>
       <point x="183" y="0" type="line" smooth="no"/>

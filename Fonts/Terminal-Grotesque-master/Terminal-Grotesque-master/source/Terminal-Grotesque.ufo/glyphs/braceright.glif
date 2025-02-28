@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="braceright" format="1">
   <advance width="283"/>
-  <unicode hex="007d"/>
+  <uniinteraction hex="007d"/>
   <outline>
     <contour>
       <point x="-10" y="-96" type="line" smooth="no"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="six" format="1">
   <advance width="554"/>
-  <unicode hex="0036"/>
+  <uniinteraction hex="0036"/>
   <outline>
     <contour>
       <point x="367" y="96" type="line"/>

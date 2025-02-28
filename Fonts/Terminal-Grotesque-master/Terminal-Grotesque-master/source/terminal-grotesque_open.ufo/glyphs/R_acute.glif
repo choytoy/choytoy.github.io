@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Racute" format="1">
   <advance width="617"/>
-  <unicode hex="0154"/>
+  <uniinteraction hex="0154"/>
   <outline>
     <component base="R"/>
     <component base="acute" xOffset="211" yOffset="160"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccedilla" format="1">
   <advance width="442"/>
-  <unicode hex="00e7"/>
+  <uniinteraction hex="00e7"/>
   <outline>
     <contour>
       <point x="171" y="-192" type="line" smooth="no"/>

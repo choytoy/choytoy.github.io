@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="questiondown" format="1">
   <advance width="501"/>
-  <unicode hex="00bf"/>
+  <uniinteraction hex="00bf"/>
   <outline>
     <contour>
       <point x="158" y="0" type="line" smooth="no"/>

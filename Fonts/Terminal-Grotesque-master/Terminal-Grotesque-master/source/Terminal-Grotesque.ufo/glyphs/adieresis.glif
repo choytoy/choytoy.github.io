@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="adieresis" format="1">
   <advance width="511"/>
-  <unicode hex="00e4"/>
+  <uniinteraction hex="00e4"/>
   <outline>
     <contour>
       <point x="299" y="96" type="line" smooth="no"/>

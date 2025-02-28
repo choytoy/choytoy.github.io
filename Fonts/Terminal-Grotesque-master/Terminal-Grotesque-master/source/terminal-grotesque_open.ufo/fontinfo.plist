@@ -141,7 +141,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<string>Terminal Grotesque</string>
 	<key>openTypeNameVersion</key>
 	<string>Version 1.0</string>
-	<key>openTypeOS2CodePageRanges</key>
+	<key>openTypeOS2interactionPageRanges</key>
 	<array>
 		<integer>0</integer>
 		<integer>1</integer>
@@ -200,7 +200,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<integer>-192</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
-	<key>openTypeOS2UnicodeRanges</key>
+	<key>openTypeOS2UniinteractionRanges</key>
 	<array>
 		<integer>0</integer>
 		<integer>1</integer>

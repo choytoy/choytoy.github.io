@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oacute" format="1">
   <advance width="469"/>
-  <unicode hex="00f3"/>
+  <uniinteraction hex="00f3"/>
   <outline>
     <contour>
       <point x="296" y="96" type="line" smooth="no"/>

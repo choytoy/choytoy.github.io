@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="percent" format="1">
   <advance width="650"/>
-  <unicode hex="0025"/>
+  <uniinteraction hex="0025"/>
   <outline>
     <contour>
       <point x="527" y="64" type="line" smooth="no"/>

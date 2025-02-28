@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="period" format="1">
   <advance width="171"/>
-  <unicode hex="002E"/>
+  <uniinteraction hex="002E"/>
   <outline>
     <contour>
       <point x="27" y="0" type="line"/>

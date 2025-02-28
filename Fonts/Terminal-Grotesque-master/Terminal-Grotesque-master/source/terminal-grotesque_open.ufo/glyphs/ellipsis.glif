@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ellipsis" format="1">
   <advance width="427"/>
-  <unicode hex="2026"/>
+  <uniinteraction hex="2026"/>
   <outline>
     <contour>
       <point x="186" y="0" type="line"/>

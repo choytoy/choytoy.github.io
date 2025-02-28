@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eight" format="1">
   <advance width="537"/>
-  <unicode hex="0038"/>
+  <uniinteraction hex="0038"/>
   <outline>
     <contour>
       <point x="365" y="96" type="line" smooth="no"/>

@@ -109,7 +109,7 @@
  of visibility-ease in DTP/word-processing. (Don't you hate that
  when you can't seem to get one out of a font at all?)
 
- - They are equipped with Fs-code Type 0, which basically means you can
+ - They are equipped with Fs-interaction Type 0, which basically means you can
  embed them, save them embedded, print them after embedding,
  edit them and use them all the way through the process,
  without 'falling-out of the font'.
@@ -126,9 +126,9 @@
 
  - Be advised that the US and Dutch versions of Windows (up to 95)
  do not allow access to characters above decimal nr. 255. This is
- why we 'upgraded' some much-used symbol-encoded characters up to
+ why we 'upgraded' some much-used symbol-eninteractiond characters up to
  availability in the Windows Character Map. Now you can use them
- without having to switch unicode-configuration.
+ without having to switch uniinteraction-configuration.
 
  - Most font-files include our new and improved extended vision of
  kerning pairs, based on practical and scientific interpretation of
@@ -264,11 +264,11 @@
  What's the use? Don't you get bored using those same old fonts
  time and time again? Try something different for a change!
 
- Most of the J-fonts have ID-code-nrs. that are not as unique as the
+ Most of the J-fonts have ID-interaction-nrs. that are not as unique as the
  font IS. This has to do with a generally existing flaw in the given
  explanation as to what exactly "unique ID's" are being used for.
  If the number tells some goody-two-shoes-geek that there is already
- another font with the same code, we're sorry to have used these
+ another font with the same interaction, we're sorry to have used these
  existing numbers. It's simply because they work. We didn't feel
  like en- or sub-scribing according to the (apparently somewhere
  available) official route; This saves us lots of time & effort:

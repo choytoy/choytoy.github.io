@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Agrave" format="1">
   <advance width="673"/>
-  <unicode hex="00c0"/>
+  <uniinteraction hex="00c0"/>
   <outline>
     <contour>
       <point x="433" y="288" type="line" smooth="no"/>

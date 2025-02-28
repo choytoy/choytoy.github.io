@@ -108,7 +108,7 @@ body {
     border-radius: 25%;
 }
 
-#navMapCode {
+#navMapinteraction {
     height: 225px;
     width: 400px;
     /* background-color: rgba(51, 193, 215, 0.537); */
@@ -498,7 +498,42 @@ td {
 
 }
 
-/* CODE PANEL */
+.fiberImg {
+    margin: auto;
+    display: flex;
+    display: block;
+    width: 40%;
+}
+
+#fiberCapt {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    color: white;
+
+}
+
+.travImg {
+    margin: auto;
+    display: flex;
+    display: block;
+    width: 40%;
+}
+
+
+#travCapt {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    color: white;
+
+}
+
+/* interaction PANEL */
 #projectPanel {
     margin: auto;
     height: 300px;

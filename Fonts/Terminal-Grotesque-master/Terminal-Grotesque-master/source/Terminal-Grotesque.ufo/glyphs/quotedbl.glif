@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl" format="1">
   <advance width="283"/>
-  <unicode hex="0022"/>
+  <uniinteraction hex="0022"/>
   <outline>
     <contour>
       <point x="32" y="480" type="line" smooth="no"/>

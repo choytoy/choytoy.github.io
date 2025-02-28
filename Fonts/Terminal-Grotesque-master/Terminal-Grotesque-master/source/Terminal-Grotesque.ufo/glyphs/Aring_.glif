@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aring" format="1">
   <advance width="673"/>
-  <unicode hex="00c5"/>
+  <uniinteraction hex="00c5"/>
   <outline>
     <contour>
       <point x="433" y="288" type="line" smooth="no"/>

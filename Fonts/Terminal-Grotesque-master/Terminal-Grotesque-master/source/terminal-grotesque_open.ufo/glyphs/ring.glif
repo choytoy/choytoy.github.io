@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ring" format="1">
   <advance width="218"/>
-  <unicode hex="02DA"/>
+  <uniinteraction hex="02DA"/>
   <outline>
     <contour>
       <point x="129" y="512" type="line"/>

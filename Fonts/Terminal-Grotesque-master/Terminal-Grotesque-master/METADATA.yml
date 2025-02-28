@@ -7,7 +7,7 @@
             "Raphaël Bastide"
         ],
         "licence": "OFL",
-        "unicode-ranges": "Basic Latin",
+        "uniinteraction-ranges": "Basic Latin",
         "tags": [
             "pixel",
             "grotesque",

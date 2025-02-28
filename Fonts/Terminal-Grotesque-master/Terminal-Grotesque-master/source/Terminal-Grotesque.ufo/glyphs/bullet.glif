@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bullet" format="1">
   <advance width="231"/>
-  <unicode hex="2022"/>
+  <uniinteraction hex="2022"/>
   <outline>
     <contour>
       <point x="67" y="288" type="line" smooth="no"/>

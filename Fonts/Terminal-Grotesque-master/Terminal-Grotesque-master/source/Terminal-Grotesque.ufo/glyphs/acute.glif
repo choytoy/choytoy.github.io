@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acute" format="1">
   <advance width="242"/>
-  <unicode hex="00b4"/>
+  <uniinteraction hex="00b4"/>
   <outline>
     <contour>
       <point x="17" y="576" type="line" smooth="no"/>

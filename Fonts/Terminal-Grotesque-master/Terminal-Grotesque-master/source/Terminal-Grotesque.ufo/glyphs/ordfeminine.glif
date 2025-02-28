@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ordfeminine" format="1">
   <advance width="367"/>
-  <unicode hex="00aa"/>
+  <uniinteraction hex="00aa"/>
   <outline>
     <contour>
       <point x="52" y="128" type="line" smooth="no"/>

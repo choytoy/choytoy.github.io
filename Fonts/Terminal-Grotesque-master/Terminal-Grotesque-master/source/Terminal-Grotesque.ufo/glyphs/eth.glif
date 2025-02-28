@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eth" format="1">
   <advance width="517"/>
-  <unicode hex="00f0"/>
+  <uniinteraction hex="00f0"/>
   <outline>
     <contour>
       <point x="330" y="96" type="line" smooth="no"/>

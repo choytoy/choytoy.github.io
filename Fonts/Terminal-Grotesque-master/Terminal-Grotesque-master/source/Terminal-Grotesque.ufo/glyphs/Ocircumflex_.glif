@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflex" format="1">
   <advance width="697"/>
-  <unicode hex="00d4"/>
+  <uniinteraction hex="00d4"/>
   <outline>
     <contour>
       <point x="396" y="96" type="line" smooth="no"/>

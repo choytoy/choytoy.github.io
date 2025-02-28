@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="degree" format="1">
   <advance width="267"/>
-  <unicode hex="00B0"/>
+  <uniinteraction hex="00B0"/>
   <outline>
     <contour>
       <point x="144" y="544" type="line"/>

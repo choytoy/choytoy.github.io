@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="currency" format="1">
   <advance width="609"/>
-  <unicode hex="00a4"/>
+  <uniinteraction hex="00a4"/>
   <outline>
     <contour>
       <point x="401" y="96" type="line" smooth="no"/>

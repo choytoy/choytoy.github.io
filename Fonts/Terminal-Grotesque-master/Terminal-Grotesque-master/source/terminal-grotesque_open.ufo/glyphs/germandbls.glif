@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="germandbls" format="1">
   <advance width="468"/>
-  <unicode hex="00DF"/>
+  <uniinteraction hex="00DF"/>
   <outline>
     <contour>
       <point x="45" y="0" type="line"/>

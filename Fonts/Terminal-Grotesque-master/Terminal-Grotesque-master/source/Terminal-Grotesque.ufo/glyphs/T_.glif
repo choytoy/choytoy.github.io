@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="T" format="1">
   <advance width="550"/>
-  <unicode hex="0054"/>
+  <uniinteraction hex="0054"/>
   <outline>
     <contour>
       <point x="203" y="0" type="line" smooth="no"/>

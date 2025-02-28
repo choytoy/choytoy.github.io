@@ -5,7 +5,7 @@ const navMapAbout = document.querySelector('#navMapAbout');
 const navMapFiber = document.querySelector('#navMapFiber');
 const navMapPhoto = document.querySelector('#navMapPhoto');
 const navMapIllus = document.querySelector('#navMapIllus');
-const navMapCode = document.querySelector('#navMapCode');
+const navMapinteraction = document.querySelector('#navMapinteraction');
 
 // DECLARE IMG
 
@@ -13,7 +13,7 @@ const hoverAbout = document.querySelector('#hoverAbout');
 const hoverFiber = document.querySelector('#hoverFiber');
 const hoverPhoto = document.querySelector('#hoverPhoto');
 const hoverpIllus = document.querySelector('#hoverIllus');
-const hoverCode = document.querySelector('#hoverCode');
+const hoverinteraction = document.querySelector('#hoverinteraction');
 
 // ADD EVENT LISTENERS
 
@@ -64,14 +64,14 @@ navMapPhoto.addEventListener('mouseout', () => {
     hoverPhoto.classList.add('homeHidden');
 })
 
-// CODE
+// interaction
 
-navMapCode.addEventListener('mouseover', () => {
-    hoverCode.classList.remove('homeHidden');
-    hoverCode.classList.add('homeHover');
+navMapinteraction.addEventListener('mouseover', () => {
+    hoverinteraction.classList.remove('homeHidden');
+    hoverinteraction.classList.add('homeHover');
 })
 
-navMapCode.addEventListener('mouseout', () => {
-    hoverCode.classList.remove('homeHover');
-    hoverCode.classList.add('homeHidden');
+navMapinteraction.addEventListener('mouseout', () => {
+    hoverinteraction.classList.remove('homeHover');
+    hoverinteraction.classList.add('homeHidden');
 })

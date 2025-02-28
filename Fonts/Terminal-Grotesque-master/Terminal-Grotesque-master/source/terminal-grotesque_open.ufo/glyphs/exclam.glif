@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclam" format="1">
   <advance width="212"/>
-  <unicode hex="0021"/>
+  <uniinteraction hex="0021"/>
   <outline>
     <contour>
       <point x="57" y="0" type="line"/>

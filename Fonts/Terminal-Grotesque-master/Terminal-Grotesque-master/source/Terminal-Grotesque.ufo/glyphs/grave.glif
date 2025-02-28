@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="grave" format="1">
   <advance width="229"/>
-  <unicode hex="0060"/>
+  <uniinteraction hex="0060"/>
   <outline>
     <contour>
       <point x="74" y="544" type="line" smooth="no"/>

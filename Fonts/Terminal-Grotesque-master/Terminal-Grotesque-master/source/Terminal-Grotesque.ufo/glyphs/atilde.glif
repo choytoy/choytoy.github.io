@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="atilde" format="1">
   <advance width="518"/>
-  <unicode hex="00e3"/>
+  <uniinteraction hex="00e3"/>
   <outline>
     <contour>
       <point x="305" y="96" type="line" smooth="no"/>

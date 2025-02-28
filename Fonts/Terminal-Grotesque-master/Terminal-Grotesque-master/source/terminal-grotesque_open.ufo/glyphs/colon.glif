@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colon" format="1">
   <advance width="195"/>
-  <unicode hex="003A"/>
+  <uniinteraction hex="003A"/>
   <outline>
     <contour>
       <point x="50" y="32" type="line"/>

@@ -16,7 +16,7 @@
             <li><a href="/about.html">about</a></li>
             <li><a href="/photography.html">photography</a></li>
             <li>fiber arts</li>
-            <li><a href="/code.html">code</a></li>
+            <li><a href="/interaction.html">interaction</a></li>
             <li><a href="/illustration.html">illustration</a></li>
         </ul>
     </menu>
@@ -42,8 +42,8 @@
                 sewing machine, the hum of which was both frightening and comforting.
             </p>
         </section>
-        <section class="pageSect">
-            <p class="blurbL">
+        <section class="blurbC" style="padding: 30px; width: 800px;">
+            <p>
                 As an adult, I came to know my mother-in-law through the bright floral dresses she sewed for herself in
                 the basement of my spouse's childhood home. Her English was limited (though not nearly as much as my
                 Chinese), but her personality hone through every handmade garment. A pattern designer and seamstress by
@@ -52,14 +52,37 @@
                 <br>
                 Regretfully, my mother-in-law passed away in December of 2024. Staying in her home in the wake of her
                 funeral, I felt drawn to carrying on her love for sewing and garment-making.
+                <br>
+                <br>
+                <i>*All my fiber art is crafted from recycled and thrifted materials.</i>
             </p>
-            <img src=" /Images/secImg.jpg" alt="An image of yours truly, the website's author." class=" secImg">
 
+        </section>
+        <section>
+            <div class="gallery">
+
+                <div class="galleryImg"><img src="/Images/fiber/berry.png" id="berry"
+                        alt="Beaded berry brooch. Materials used: Glass beads, recycled felt, (2023)."></div>
+                <div class="galleryImg"><img src="/Images/fiber/brooch.png" id="brooch"
+                        alt="Beaded rabbit cameo brooch. Materials used: Glass beads, recycled felt, (2023)."></div>
+                <div class="galleryImg"><img src="/Images/fiber/catBag.jpg" id="catBag"
+                        alt="Self-drafted cat-shaped drawstring bag with pom-poms. Materials used: Recycled fabrics, (2025).">
+                </div>
+                <div class="galleryImg"><img src="/Images/fiber/hand.png" id="hand"
+                        alt="Felt severed hand Halloween brooch. Materials used: Recycled felt, (2020).">
+                </div>
+                <div style="flex-basis: 100%; height: 200px;"></div>
+            </div>
         </section>
         <section>
             <div style="flex-basis: 100%; height: 100px;"></div>
         </section>
     </main>
+
+    <div class="modal" id="fiberModal">
+        <img class="modalImg" id="fiberImg">
+        <div id="fiberCapt"></div>
+    </div>
     <footer>
         <div class="footerText">
             <i>
@@ -74,6 +97,8 @@
                 Copyright (2024) Chaya Abramovitch. Terminal Grotesque by Raphaël Bastide (Velvetyne Type Foundry) </i>
         </div>
     </footer>
+
+    <script src="fibermodal.js"></script>
 </body>
 
 </html>

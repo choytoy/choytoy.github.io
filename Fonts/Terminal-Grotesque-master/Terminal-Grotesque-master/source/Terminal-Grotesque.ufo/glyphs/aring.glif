@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aring" format="1">
   <advance width="507"/>
-  <unicode hex="00e5"/>
+  <uniinteraction hex="00e5"/>
   <outline>
     <contour>
       <point x="297" y="96" type="line" smooth="no"/>

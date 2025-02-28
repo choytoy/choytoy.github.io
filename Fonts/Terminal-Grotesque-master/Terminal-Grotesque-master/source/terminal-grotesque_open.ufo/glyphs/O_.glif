@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="O" format="1">
   <advance width="698"/>
-  <unicode hex="004F"/>
+  <uniinteraction hex="004F"/>
   <outline>
     <contour>
       <point x="396" y="96" type="line"/>

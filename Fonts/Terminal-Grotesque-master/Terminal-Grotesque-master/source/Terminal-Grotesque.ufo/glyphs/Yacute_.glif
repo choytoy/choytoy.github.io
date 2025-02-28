@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yacute" format="1">
   <advance width="600"/>
-  <unicode hex="00dd"/>
+  <uniinteraction hex="00dd"/>
   <outline>
     <contour>
       <point x="221" y="0" type="line" smooth="no"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onequarter" format="1">
   <advance width="729"/>
-  <unicode hex="00bc"/>
+  <uniinteraction hex="00bc"/>
   <outline>
     <contour>
       <point x="590" y="128" type="line" smooth="no"/>

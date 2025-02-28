@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oe" format="1">
   <advance width="756"/>
-  <unicode hex="0153"/>
+  <uniinteraction hex="0153"/>
   <outline>
     <contour>
       <point x="618" y="288" type="line"/>
