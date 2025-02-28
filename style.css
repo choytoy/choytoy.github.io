@@ -555,3 +555,21 @@ td {
 #cateG:hover {
     background-color: white;
 }
+
+.bioImg {
+    margin: auto;
+    display: flex;
+    display: block;
+    width: 40%;
+}
+
+
+#bioCapt {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    color: white;
+
+}

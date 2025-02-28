@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="/style.css">
-    <title>Photography</title>
+    <title>Photobiographical</title>
 </head>
 
 <body id="bodyBio">
@@ -66,33 +66,38 @@
         </section>
         <section class="blurbC">
 
-            <p><i>Symphonia (2022)</i>
+            <p><i>Tomb, August (2022)</i>
                 <br>
                 <br>
-                Symphonia emerged from an extended hospital stay at L'Hôpital de Verdun from July to August 2022, when
-                I was placed in the ICU following a severe case of Legionnaires Disease <i>(Legionella sp.)</i> from
-                which I was not expected to recover. Doctors isolated me in a large room, and due to the
-                prevalence of SARS-CoV2 and my immunosuppression, I was denied visitations.
-                <br>
-                <br>
-                This combination of isolation and an elevated fever (107F/41.66C) led to delirium and audiovisual
-                hallucinations. Led by these illusions, I photographed my surroundings in the hospital, and wrote in
-                descriptions of what I observed for my loved ones.
-                <br>
-                <br>
-                The title of this collection, <i>Symphonia</i>, references the tumour necrotic factor (TNFα)
+                Tomb, August emerged from an extended hospital stay at L'Hôpital de Verdun from July to August 2022,
+                when I was placed in the ICU following a severe case of Legionnaires Disease <i>(Legionella sp.)</i>
+                I was not expected to recover thanks to the tumour necrotic factor (TNFα)
                 biologic monoclonal antibody I was on at the time of my infection, Simponi (gen. Golimumab),
-                an immunosuppressant injction to treat my axial spondylitis.
-                Symphonia is an intentional combination of the words Simponi and Symphony, alluding to the spectral
-                chorus of instrumental music I heard in my hospital room.
+                an immunosuppressant injction to treat my axial spondylitis. Doctors isolated me in a large room, and
+                due to the prevalence of SARS-CoV2 and my immunosuppression, I was denied most visitations.
+                <br>
+                <br>
+                This combination of isolation and an elevated fever (107F/41.66C) led to delirium.
+                I took photos of my hospital room and used my ipad to write in descriptions of what I observed for my
+                loved ones.
                 <br>
                 <br>
                 <i>Equipment used: TCL 30SE smart phone, iPad Pro, Procreate.</i>
             </p>
-            <div style="flex-basis: 100%; height: 200px;"></div>
+
         </section>
+        <div class="gallery">
+            <div class="galleryImg"><img src="/Images/tomb/blood.png" id="blood"></div>
+            <div class="galleryImg"><img src="/Images/tomb/potassium.png" id="potassium"></div>
+            <div class="galleryImg"><img src="/Images/tomb/window.png" id="windowB"></div>
+            <div class="galleryImg"><img src="/Images/tomb/tomb.png" id="tomb"></div>
+            <div style="flex-basis: 100%; height: 300px;"></div>
+        </div>
 
     </main>
+    <div class="modal" id="bioModal">
+        <img class="modalImg" id="bioImg">
+    </div>
     <footer style="background-color: black;">
         <div class="footerText">
             <i>
@@ -107,6 +112,8 @@
                 Copyright (2024) Chaya Abramovitch. Terminal Grotesque by Raphaël Bastide (Velvetyne Type Foundry) </i>
         </div>
     </footer>
+
+    <script src="biomodal.js"></script>
 </body>
 
 
