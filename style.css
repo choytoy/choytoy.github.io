@@ -497,3 +497,26 @@ td {
     color: white;
 
 }
+
+/* CODE PANEL */
+#projectPanel {
+    margin: auto;
+    height: 300px;
+    width: 800px;
+    outline: solid 1px black;
+    margin-top: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+#projectPanel p {
+    width: 50%;
+    height: 100%;
+    align-content: center;
+}
+
+#cateG:hover {
+    background-color: white;
+}
