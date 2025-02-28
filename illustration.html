@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="/Images/favicon.png">
     <link rel="stylesheet" href="/style.css">
-    <title>About</title>
+    <title>illustration</title>
 </head>
 
 <body>
@@ -16,68 +17,76 @@
             <li><a href="/about.html">about</a></li>
             <li><a href="/photography.html">photography</a></li>
             <li><a href="/fiber.html">fiber arts</a></li>
-            <li><a href="/code.html">coding + games</a></li>
-            <li><a href="/illustration.html">illustration + design</a></li>
+            <li><a href="/code.html">code</a></li>
+            <li>illustration</li>
         </ul>
     </menu>
     <main>
-        <section class="typeTitle">About me</section>
+        <section class="typeTitle">illustration</section>
         <section class="pageSect">
-            <img src=" /Images/aboutImg.jpg" alt="An image of Chaya (Choy), the website's author." id="aboutImg1"
-                class="aboutImg">
-            <p class="blurbR">
-                My name is Chaya Abramovitch (married <i>Au</i>) and I'm a multidisciplinary artist based in Montreal,
-                Canada.
-                <br>
-                <br>
-                I work in traditional and digital mediums, and am particularly interested in static web development,
-                interactive digital media, photography, and fiber arts.
-            </p>
-        </section>
-        <section class="pageSect">
-            <p class="blurbL">
-                Heavily inspired by millennial childhood nostalgia, my art echoes 90s-00s kitsch, deadstock stores,
-                early online media (web 1.0-2.0), archival horror, and folklore.
-                <br>
-                <br>
-                I make use of recycled and second-hand materials, as well as vintage, open-source, or "small software"
-                to create pieces that authentically appeal to my interests. In photography, I use traditional in-body
-                effects (lens filters, light projection crystals) and manual lenses.
-            </p>
-            <img src="/Images/aboutImg2.jpg" alt="An image of Chaya (Choy), the website's author." class="aboutImg"
-                id="aboutImg2">
-        </section>
-        <section class="pageSect">
-            <img src="/Images/aboutImg3.jpg" alt="An image of Chaya (Choy), the website's author." id="aboutImg3"
-                class="aboutImg">
-            <p class="blurbR">
+            <figure>
+                <img src=" /Images/picoCell.gif"
+                    alt="A rotating turntable of a low-poly smartphone with a marimo moss charm." class="secImg">
+                <figcaption><i>PicoCELL, in PicoCAD (2024).</i></figcaption>
+            </figure>
 
-                My career as a mental health worker and youth counsellor are at the heart of my creative
-                self-expression. The work I make is heavily tied to my experience growing up with cPTSD, CSA, and
-                physical disabilities.
+            <p class="blurbR">
+                Collectively we've come a long way from MS Paint, but digital illustration still holds my entire heart.
+                Through the decades my style has shifted tremendously, but retro art has always been at the core of my
+                aesthetic. These days, I work primarily in Pixsquare and Procreate for iOS.
+                <br>
+                <br>
+                I'm also partial to low-poly 3D modelling, the clunkier and more pixelated the better. PicoCAD,
+                Blockbench, and Crocotile 3D are my tools of choice. Terminally averse to using the "proper" tools for
+                the trade (I can't get through a Blender tutorial), working with limited software lends to the
+                authenticity of my artistic vision.
             </p>
         </section>
+        <div class="gallery">
+            <div class="galleryImg"><img src="/Images/illus/brew.png" id="brew"
+                    alt="Bitches Brew (2024). Materials used: iPad, Pixsquare for iOS."></div>
+            <div class="galleryImg"><img src="/Images/illus/bugs.png" id="bugs"
+                    alt="Macro sprites (2024). Materials used: iPad, Pixsquare for iOS."></div>
+            <div class="galleryImg"><img src="/Images/illus/tunnel.png" id="tunnel"
+                    alt="The Tunnel (2025). Materials used: iPad, Procreate for iOS."></div>
+            <div class="galleryImg"><img src="/Images/illus/glow.png" id="glow"
+                    alt="From 'I Saw the TV Glow,' (2024). Materials used: iPad, Pixsquare for iOS."></div>
+            <div class="galleryImg"><img src="/Images/illus/suspiria.png" id="sus"
+                    alt="From 'Suspiria,' (2024). Materials used: iPad, Pixsquare for iOS."></div>
+            <div class="galleryImg"><img src="/Images/illus/audition.png" id="aud"
+                    alt="From 'Audition,' (2024). Materials used: iPad, Pixsquare for iOS."></div>
+            <div class="galleryImg"><img src="/Images/Home.gif" id="homeGif"
+                    alt="Portfolio Home Animation, (2025). Materials used: iPad, Pixsquare for iOS."></div>
+            <div class="galleryImg"><img src="/Images/illus/fruit.gif" id="fruit"
+                    alt="Pixel Dailies: 'Tropical Fruit,' (2024). Materials used: iPad, Pixsquare for iOS.">
+            </div>
+            <div class="galleryImg"><img src="/Images/illus/soda.png" id="soda"
+                    alt="NoVENDber: 'Konbini,' (2024). Materials used: iPad, Pixsquare for iOS.">
+            </div>
+            <div style="flex-basis: 100%; height: 200px;"></div>
+        </div>
+
     </main>
+    <div class="modal" id="illusModal">
+        <img class="modalImg" id="illusImg">
+        <div id="illusCapt"></div>
+    </div>
     <footer>
-        <div class="artifIntState">
+        <div class="footerText">
             <i>
-                Artificial Intelligence statement: No generative AI was used in the creation of this website or its
-                contents.
-                <br>
-                The author prohibits any entity from using the content of this website for the training of AI
-                technologies or for generative AI purposes.</i>
+                Artificial Intelligence statement: No generative AI was used in the creation of this website, or its
+                contents. The author prohibits any entity from using its content for the training of AI technology or
+                for generative AI purposes.</i>
         </div>
         <div class=" footerText">
             <i>
-                Artistic property on this website is protected under Canada's copyright act
-                (CARFAC).
-                <br>
-                The unauthorized use or sale of this property is prohibited by law.
-                <br>
-                Copyright (2024) Chaya Abramovitch.</i>
+                Artistic property on this website is protected under Canada'scopyright act
+                (CARFAC). Unauthorized use of its contents is prohibited by law.
+                Copyright (2024) Chaya Abramovitch. Terminal Grotesque by Raphaël Bastide (Velvetyne Type Foundry) </i>
         </div>
     </footer>
-
+    <script src="/illusmodal.js" defer></script>
 </body>
+
 
 </html>

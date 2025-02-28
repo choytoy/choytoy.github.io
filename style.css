@@ -26,7 +26,19 @@ body {
     height: 100vh;
 }
 
+#navAnim {
+    position: absolute;
+    top: 18%;
+    scale: 90%;
+    display: flex;
+    height: 90%;
+    align-items: center;
+    justify-self: end;
+
+}
+
 #homeNavBase {
+
     position: absolute;
     top: -130px;
 }
@@ -121,6 +133,7 @@ body {
 }
 
 menu {
+    display: flex;
     height: 5%;
     position: fixed;
     width: 100%;
@@ -128,29 +141,26 @@ menu {
     background-color: white;
     margin-top: 0px;
     z-index: 3;
+    justify-content: space-between;
 }
 
 main {
     position: absolute;
-    top: 200px;
+    top: 100px;
     margin: 0px;
-    height: 600px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
+    flex-direction: column;
 }
 
 .typeTitle {
     font-family: "Terminal Grotesque", "Fucked Olympia", 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 80px;
+    font-size: 68px;
     display: flex;
     justify-content: center;
-    flex: 1 1 100%;
     height: 100px;
-    margin-top: -100px;
-    margin-bottom: 10px;
 }
+
 
 p {
     margin-top: 0px;
@@ -158,28 +168,35 @@ p {
 }
 
 .pageSect {
-    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+    width: 800px;
     height: 300px;
     display: flex;
-    padding-bottom: 100px;
-
+    padding-bottom: 35px;
+    padding-top: 35px;
+    justify-content: space-between;
 }
 
 .blurbC {
-    width: 860px;
+    width: 60%;
+    height: 100%;
     padding: 0px;
-    margin-top: -50px;
+    margin: auto;
+
+
 }
 
 .blurbR {
-    width: 700px;
+    width: 500px;
     height: 300px;
     margin-left: 60px;
     align-content: center;
+
 }
 
 .blurbL {
-    width: 700px;
+    width: 500px;
     height: 300px;
     margin-right: 60px;
     align-content: center;
@@ -210,66 +227,57 @@ footer {
     height: 8%;
     background-color: white;
     z-index: 5;
+    display: flex;
+    justify-content: center;
 }
 
 .footerText {
     padding: 10px;
+    width: 50%;
 }
 
-.artifIntState {
-    position: absolute;
-    width: 700px;
-    right: 5px;
-    bottom: 18px;
+#insectSprites {
+    margin: 25px auto;
 }
 
 .spriteRow {
     width: 650px;
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .sprite {
     display: inline-flex;
-    padding: 30px 40px;
+    height: 100px;
+    width: 100px;
     outline: solid 1px;
     border-radius: 10px;
     margin: 15px 0px;
 }
 
+
+.imgBug {
+    height: 75px;
+    margin: auto;
+}
+
+.imgBug:hover {
+    height: 90px;
+    cursor: help;
+}
+
 #indexBod {
     background-color: black;
+    overflow: hidden;
 }
 
-#aboutImg1 {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    object-position: 37% 80%;
-    outline: solid 1px black;
-    transition: filter ease-in .5s !important;
+figure {
+    padding: 0;
+    margin: 0;
 }
 
-#aboutImg2 {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    object-position: 37% 80%;
-    outline: solid 1px black;
-    transition: filter ease-in .5s !important;
-}
-
-#aboutImg3 {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    object-position: 50% 0%;
-    outline: solid 1px black;
-    transition: filter ease-in .5s !important;
-}
-
-.aboutImg:hover {
+.secImg:hover {
     filter: grayscale(100%) !important;
 }
 
@@ -292,22 +300,59 @@ footer {
     transition: filter ease-in .5s !important;
 }
 
-#backShell {
-    z-index: -1;
-    position: absolute;
-    right: 45px;
-    top: 60px;
+h4 {
+    font-family: 'Terminal Grotesque';
+    font-size: 36px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+table {
+    width: 800px;
+    margin: auto;
+    height: 300px;
+    border-collapse: collapse;
+
+}
+
+tr {
+    height: 40px;
+
+}
+
+tr:hover {
+    background-color: rgb(255, 191, 0);
+    cursor: help;
+
+}
+
+th {
+    height: 40px;
+    text-align: center;
     width: 200px;
-    height: 200px;
-    object-fit: fill;
-    object-position: 100%;
-    filter: grayscale(90%) brightness(1.75) contrast(.75);
-    rotate: 135deg;
+    margin: auto;
+}
+
+td {
+    height: 40px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+.titleTd {
+    font-style: italic;
+}
+
+.tabs {
+    display: flex;
+    padding-right: 60px;
+    padding-top: 5px;
 }
 
 .tabCont {
-    z-index: 4;
-    position: fixed;
     padding: 5px 10px;
     border: solid 1px black;
     border-radius: 10px 10px 0 0;
@@ -321,34 +366,18 @@ footer {
 }
 
 #tabMacro {
-    right: 200px;
-    top: 9px;
     background-color: white;
 }
 
 #tabTravel {
-    right: 119px;
-    top: 9px;
     background-color: rgb(234, 233, 233);
-}
-
-#tabLocal {
-    color: rgb(241, 241, 241);
-    right: 49px;
-    top: 9px;
-    background-color: rgb(31, 31, 31);
 }
 
 #tabBio {
     color: rgb(241, 241, 241);
-    right: 270px;
-    top: 9px;
     background-color: rgb(31, 31, 31);
 }
 
-.tabActive {
-    padding-bottom: 6px !important;
-}
 
 #photobioJump {
     z-index: 3;
@@ -398,7 +427,73 @@ footer {
     color: white;
 }
 
-#bodyLocal {
-    background-color: black;
+.gallery {
+    display: grid;
+    width: 60%;
+    margin: 20px auto 0px;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.galleryImg {
+    overflow: hidden;
+}
+
+.galleryImg img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.galleryImg img:hover {
+    scale: 110%;
+    cursor: help;
+}
+
+/* MODAL IMAGES */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 37;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-content: center;
+}
+
+.modalImg {
+    margin: auto;
+    display: flex;
+    display: block;
+    width: 40%;
+}
+
+#illusCapt {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
     color: white;
+
+}
+
+
+.macroImg {
+    margin: auto;
+    display: flex;
+    display: block;
+    width: 40%;
+}
+
+#macroCapt {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    color: white;
+
 }

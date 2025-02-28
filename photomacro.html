@@ -2,96 +2,155 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="/style.css">
-    <title>Macro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="/style.css">
+        <title>Macro</title>
 </head>
 
 <body>
-    <menu>
-        <ul class="indexNav">
-            <li><a href="/index.html">home</a></li>
-            <li><a href="/about.html">about</a></li>
-            <li>photography</li>
-            <li><a href="/fiber.html">fiber arts</a></li>
-            <li><a href="/code.html">coding + games</a></li>
-            <li><a href="/illustration.html">illustration + design</a></li>
-        </ul>
-    </menu>
-    <div class="tabCont tabActive" id="tabMacro" style="text-decoration: line-through;">macro</div>
-    <div class="tabCont" id="tabTravel"><a href="/phototravel.html" style="color: black;">travel</a></div>
-    <div class="tabCont" id="tabLocal"><a href="/photolocal.html">local</a></div>
-    <div class="tabCont" id="tabBio"><a href="/photobio.html">photobiographical</a></div>
-    <img src="/Images/shell.png" alt="a black and white snail's shell." id="backShell">
-    <main>
-        <section class="typeTitle">Macro</section>
-        <section style="width: 860px;">
-            <p><i>Les Insectes (2024)</i>
-                <br>
-                <br>
-                I am captivated by the wonder of the macroscopic world, and its colourful alien inhabitants.
-                Macro photography is a portal through which I can observe the natural world with awe,
-                as it calls attention to the tiniest details.
-                <br>
-                <br>
-                At a sensor magnification of 1.0x-2.0x, depth of field is so thin that even one's heartbeat can set off
-                an image's focal point. Macro photography, in this sense, is a form of meditation for me -- A way to
-                focus simultaneously on my pulse and breathing while leaning into these natural movements of the body at
-                rest. All bodily sensations are anchored in my perception of the natural world through the lens of my
-                camera.
-                <br>
-                <br>
-                My photography setup is comprised of a cropped sensor (APS-C) mirrorless SLR camera, paired with
-                a specialty 2x magnification manual focus macro lens. All subjects are photogradphed live in the wild.
-                Images are shot in RAW format to maximize sensor information, then minimally adjusted using Adobe
-                Lightroom.
-                <br>
-                <br>
-                Click on the sprites to learn more about each insect I've photographed and view images.
-                <br>
-                Equipment used: Canon EOS R50 Mirrorless Camera, Laowa 65mm 2x Macro Lens, Godox v350 Flash.
-            </p>
-        </section>
-        <div style="flex-basis: 100%;"></div>
-        <div id="insectSprites">
-            <div class="spriteRow">
-                <div class="sprite">a</div>
-                <div class="sprite">a</div>
-                <div class="sprite">a</div>
-                <div class="sprite">a</div>
-            </div>
-            <div class="spriteRow">
-                <div class="sprite">a</div>
-                <div class="sprite">a</div>
-                <div class="sprite">a</div>
-                <div class="sprite">a</div>
-            </div>
+        <menu>
+                <ul class="indexNav">
+                        <li><a href="/index.html">home</a></li>
+                        <li><a href="/about.html">about</a></li>
+                        <li>photography</li>
+                        <li><a href="/fiber.html">fiber arts</a></li>
+                        <li><a href="/code.html">code</a></li>
+                        <li><a href="/illustration.html">illustration</a></li>
+                </ul>
+                <div class="tabs">
+                        <div class="tabCont tabActive" id="tabMacro" style="text-decoration: line-through;">macro</div>
+                        <div class="tabCont" id="tabTravel"><a href="/phototravel.html" style="color: black;">travel</a>
+                        </div>
+                        <div class="tabCont" id="tabBio"><a href="/photobio.html">photobiographical</a></div>
+                </div>
+        </menu>
+        <main>
+                <section class="typeTitle">Macro</section>
+                <section class="blurbC">
+                        <p><i>Les Bibittes (2024)</i>
+                                <br>
+                                <br>
+                                I began shooting macro photography in September of 2024, as part of a general interest
+                                in ento-hobbyism
+                                (the leisurely, non-academic study of insects). Macro photography presented a new
+                                technical challenge
+                                for me and provided me with ample opportunities to take in my surroundings.
+                                <br>
+                                <br>
+                                At magnification between 1.0x-2.0x, depth of field is so thin that even one's heartbeat
+                                can set
+                                off an image's focal point. Macro photography is a form of meditation for me -- A way to
+                                focus relaxing my pulse and breathing while leaning into these natural movements of my
+                                body at
+                                rest.
+                                <br>
+                                <br>
+                                My setup is comprised of a cropped sensor (APS-C) mirrorless SLR camera, paired with
+                                a 2.0x magnification f2.8 manual focus macro lens. Images are shot in RAW format to
+                                maximize sensor
+                                information, then minimally adjusted to match JPEG colour profiles using Adobe
+                                Lightroom. To impact the
+                                natural world as little as possible, all subjects are photogradphed live in the wild.
+                                <br>
+                                <br>
+                                Click the sprites to view images.
+                                <br>
+                                <br>
+                                <i>Equipment used: Canon EOS R50 SLR, Laowa 65mm 2x Macro Lens, Godox v350 Flash.</i>
+                        </p>
+                </section>
+                <div style="flex-basis: 100%;"></div>
+                <div id="insectSprites">
+                        <div class="spriteRow">
+                                <div class="sprite"><img src="/Images/amBug.png" alt="Ambush bug, (2024)."
+                                                class="imgBug" id="amb">
+                                </div>
+                                <div class="sprite"><img src="/Images/cukeBug.png" alt="Cucumber beetle, (2024)."
+                                                class="imgBug" id="cuke"></div>
+                                <div class="sprite"><img src="/Images/beeBug.png" alt="Western honeybee, (2024)."
+                                                class="imgBug" id="bee"></div>
+                                <div class="sprite"><img src="/Images/draBug.png"
+                                                alt="Elusive clubtail dragonfly, (2024)." class="imgBug" id="drgn">
+                                </div>
+                                <div class="sprite"><img src="/Images/flyBug.png" alt="Greenbottle fly, (2024)."
+                                                class="imgBug" id="fly"></div>
+                        </div>
+                        <div class="spriteRow">
+                                <div class="sprite"><img src="/Images/hopBug.png"
+                                                alt="Spur-throated grasshopper, (2024)." class="imgBug" id="grass">
+                                </div>
+                                <div class="sprite"><img src="/Images/hrlBug.png" alt="Harlequin lady beetle, (2024)."
+                                                class="imgBug" id="harlq"></div>
+                                <div class="sprite"><img src="Images/ladBug.png" alt="7-spotted lady beetle, (2024)."
+                                                class="imgBug" id="seven"></div>
+                                <div class="sprite"><img src="/Images/nymBug.png" alt="Allantus sawfly nymph, (2024)."
+                                                class="imgBug" id="saw">
+                                </div>
+                                <div class="sprite"><img src="/Images/orbBug.png" alt="Cross orbweaver, (2024)."
+                                                class="imgBug" id="cross">
+                                </div>
+                        </div>
+                        <div class="spriteRow">
+                                <div class="sprite"><img src="/Images/pntBug.png" alt="American painted lady, (2024)."
+                                                class="imgBug" id="paint"></div>
+                                <div class="sprite"><img src="/Images/swtBug.png" alt="Striped sweat bee, (2024)."
+                                                class="imgBug" id="sweat">
+                                </div>
+                                <div class="sprite"><img src="/Images/tpbBug.png" alt="Tarnished plant bug, (2024)."
+                                                class="imgBug" id="tarn">
+                                </div>
+                                <div class="sprite"><img src="/Images/jawBug.png"
+                                                alt="Silver long-jawed orbweaver, (2024)." class="imgBug" id="jaw">
+                                </div>
+                                <div class="sprite"><img src="/Images/jmpBug.png" alt="Bronze jumping spider, (2024)."
+                                                class="imgBug" id="jump">
+                                </div>
+                        </div>
+                        <div style="flex-basis: 100%; height: 100px;"></div>
+                </div>
 
-
+        </main>
+        <div style="display: none;">
+                <img src="/Images/macro/amb.jpg" id="picAmb">
+                <img src="/Images/macro/bee.jpg" id="picBee">
+                <img src="/Images/macro/club.jpg" id="picClub">
+                <img src="/Images/macro/cross.jpg" id="picCross">
+                <img src="/Images/macro/cuke.jpg" id="picCuke">
+                <img src="/Images/macro/fly.jpg" id="picFly">
+                <img src="/Images/macro/grass.jpg" id="picGrass">
+                <img src="/Images/macro/harlq.jpg" id="picHarlq">
+                <img src="/Images/macro/jaw.jpg" id="picJaw">
+                <img src="/Images/macro/jump.jpg" id="picJump">
+                <img src="/Images/macro/paint.jpg" id="picPaint">
+                <img src="/Images/macro/saw.jpg" id="picSaw">
+                <img src="/Images/macro/seven.jpg" id="picSeven">
+                <img src="/Images/macro/sweat.jpg" id="picSweat">
+                <img src="/Images/macro/tarn.jpg" id="picTarn">
         </div>
-        <div style="flex-basis: 100%; height: 200px;"></div>
-    </main>
-    <footer>
-        <div class="artifIntState">
-            <i>
-                Artificial Intelligence statement: No generative AI was used in the creation of this website, or its
-                contents.
-                <br>
-                The author prohibits any entity from using the content of this website for the training of AI
-                technologies or for generative AI purposes.</i>
+        <div class="modal" id="macroModal">
+                <img class="modalImg" id="macroImg">
+                <div id="macroCapt"></div>
         </div>
-        <div class=" footerText">
-            <i>
-                Artistic property on this website is protected under Canada'scopyright act
-                (CARFAC).
-                <br>
-                The unauthorized use or sale of this property is prohibited by law.
-                <br>
-                Copyright (2024) Chaya Abramovitch.</i>
-        </div>
-    </footer>
+        <footer>
+                <div class="footerText">
+                        <i>
+                                Artificial Intelligence statement: No generative AI was used in the creation of this
+                                website, or its
+                                contents. The author prohibits any entity from using its content for the training of AI
+                                technology or
+                                for generative AI purposes.</i>
+                </div>
+                <div class=" footerText">
+                        <i>
+                                Artistic property on this website is protected under Canada'scopyright act
+                                (CARFAC). Unauthorized use of its contents is prohibited by law.
+                                Copyright (2024) Chaya Abramovitch. Terminal Grotesque by Raphaël Bastide (Velvetyne
+                                Type Foundry) </i>
+                </div>
+        </footer>
+        <script src="/macromodal.js" defer></script>
 </body>
 
 
