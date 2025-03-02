@@ -24,7 +24,7 @@ eSeraph.onclick = function () {
 
 portF.onclick = function () {
     projectPanel.children[0].innerHTML = "The very website you're browsing!<br/><br/>Hosted by Github Pages, this homepage is comprised of storytelling, original art, and original code.<br/><br/>Thank you for being here. ♡"
-    projectPanel.children[1].innerHTML = '<img src="/Images/home.gif" class="secImg">'
+    projectPanel.children[1].innerHTML = '<img src="/Images/Home.gif" class="secImg">'
 }
 
 grow.onclick = function () {
