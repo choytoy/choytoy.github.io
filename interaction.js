@@ -28,11 +28,11 @@ portF.onclick = function () {
 }
 
 grow.onclick = function () {
-    projectPanel.children[0].innerHTML = "A short Bitsy game built in a day for the first edition of <i>International Long COVID Awareness Day (March 15, 2023).</i><br/><br/>In this project, Choy reflects on 3 years of living with immunosuppression in a world with shifting opinions regarding transmission precautions, and the ties of community that join disabled and high-risk people over the Internet.<br/><br/>Republished February 2025.<br/><br/><a href='' target='blank'>Link</a>"
+    projectPanel.children[0].innerHTML = "A short Bitsy game built in a day for the first edition of <i>International Long COVID Awareness Day (March 15, 2023).</i><br/><br/>In this project, Choy reflects on 3 years of living with immunosuppression in a world with shifting opinions regarding transmission precautions, and the ties of community that join disabled and high-risk people over the Internet.<br/><br/>Republished February 2025."
     projectPanel.children[1].innerHTML = '<img src="/Images/cap1.PNG" class="secImg" alt>'
 }
 
 redRiv.onclick = function () {
-    projectPanel.children[0].innerHTML = "A short Bitsy game built in a weekend for <i>Bitsy Jam #77 (October 15th, 2023).</i><br/><br/>Addressing nostalgia, sibling relationships, and depression.<br/><br/>Republished February 2025.<br/><br/><a href='' target='blank'>Link</a>"
+    projectPanel.children[0].innerHTML = "A short Bitsy game built in a weekend for <i>Bitsy Jam #77 (October 15th, 2023).</i><br/><br/>Addressing nostalgia, sibling relationships, and depression.<br/><br/>Republished February 2025."
     projectPanel.children[1].innerHTML = '<img src="/Images/redRiv2.PNG" class="secImg">'
 }
