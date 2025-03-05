@@ -39,7 +39,7 @@ var jumpP = document.getElementById('picJump');
 
 amb.onclick = function () {
     macroModal.style.display = 'block';
-    macroImg.src = beeP.src;
+    macroImg.src = ambP.src;
     macroCapt.innerText = amb.alt;
 }
 bee.onclick = function () {
