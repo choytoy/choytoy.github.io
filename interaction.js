@@ -8,7 +8,7 @@ var redRiv = document.getElementById('redRiv');
 var projectPanel = document.getElementById('projectPanel');
 
 wcHome.onclick = function () {
-    projectPanel.children[0].innerHTML = 'A narrative-heavy point-and-click game based off real experiences. Maya returns from school abroad to find new tensions have shaped her friend group in her absence. Navigate the awkwardness of a NYE house party in your late 20s. <br/><br/>Built in Adventure Game Studio (originally released in 1997), this game is a callback to point-and-click adventure games of the 90s.<br/><br/>Code, art, and music by Choy.<br/><br/>Projected release date: Summer 2025.'
+    projectPanel.children[0].innerHTML = 'A narrative-heavy point-and-click game based off real experiences. Maya returns from school abroad to find new tensions have shaped her friend group in her absence. Navigate the awkwardness of a NYE house party in your late 20s. <br/><br/>Built in Adventure Game Studio (originally released in 1997), this game is a callback to point-and-click adventure games of the 90s.<br/><br/>Code, art, and music by Choy.<br/>Projected release date: Summer 2025. <br/><br/><a href="https://choytoy.itch.io/welcome-home" target="blank">Link</a>'
     projectPanel.children[1].innerHTML = '<img src="/Images/wcHome.png" class="secImg">'
 }
 
