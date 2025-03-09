@@ -11,11 +11,18 @@ var aud = document.getElementById('aud');
 var homeGif = document.getElementById('homeGif');
 var fruit = document.getElementById('fruit');
 var soda = document.getElementById('soda');
+var dreadB = document.getElementById('dreadBread');
 
 var illusModal = document.getElementById('illusModal');
 var illusImg = document.getElementById('illusImg');
 var illusCapt = document.getElementById('illusCapt');
 
+
+dreadB.onclick = function () {
+    illusModal.style.display = 'block';
+    illusImg.src = this.src;
+    illusCapt.innerText = this.alt;
+}
 soda.onclick = function () {
     illusModal.style.display = 'block';
     illusImg.src = this.src;
