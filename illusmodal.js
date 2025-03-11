@@ -13,10 +13,18 @@ var fruit = document.getElementById('fruit');
 var soda = document.getElementById('soda');
 var dreadB = document.getElementById('dreadBread');
 var seedGif1 = document.getElementById('seedG1');
+var botanG = document.getElementById('botanG');
 
 var illusModal = document.getElementById('illusModal');
 var illusImg = document.getElementById('illusImg');
 var illusCapt = document.getElementById('illusCapt');
+
+
+botanG.onclick = function () {
+    illusModal.style.display = 'block';
+    illusImg.src = this.src;
+    illusCapt.innerText = this.alt;
+}
 
 seedGif1.onclick = function () {
     illusModal.style.display = 'block';
