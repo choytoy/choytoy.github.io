@@ -8,7 +8,7 @@ var redRiv = document.getElementById('redRiv');
 var projectPanel = document.getElementById('projectPanel');
 
 botanic.onclick = function () {
-    projectPanel.children[0].innerHTML = 'A florist simulator made in 4 days for GirlyJam 2025: <i>opposites attract</i>.<br/><br/>Original art by Choy. Programming by Patrickdott56. Collaborative game design.<br/><br/>Link to come'
+    projectPanel.children[0].innerHTML = 'A florist simulator made in 4 days for GirlyJam 2025: <i>opposites attract</i>.<br/><br/>Original art by Choy. Programming by Patrickdott56. Collaborative game design.<br/><br/><a href="https://patricksgamecorner.itch.io/botanic-panic" target="blank">Link</a>'
     projectPanel.children[1].innerHTML = '<img src="/Images/granny.png" class="secImg">'
 }
 

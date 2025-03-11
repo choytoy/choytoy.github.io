@@ -12,11 +12,17 @@ var homeGif = document.getElementById('homeGif');
 var fruit = document.getElementById('fruit');
 var soda = document.getElementById('soda');
 var dreadB = document.getElementById('dreadBread');
+var seedGif1 = document.getElementById('seedG1');
 
 var illusModal = document.getElementById('illusModal');
 var illusImg = document.getElementById('illusImg');
 var illusCapt = document.getElementById('illusCapt');
 
+seedGif1.onclick = function () {
+    illusModal.style.display = 'block';
+    illusImg.src = this.src;
+    illusCapt.innerText = this.alt;
+}
 
 dreadB.onclick = function () {
     illusModal.style.display = 'block';
