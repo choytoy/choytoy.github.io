@@ -24,7 +24,7 @@ refresh.onclick = function () {
 }
 
 eSeraph.onclick = function () {
-    projectPanel.children[0].innerHTML = 'An oracle card web app built in HTML, CSS, and vanilla JS. Animated using CSS keyframes.<br/><br/>Featuring hand-drawn archival horror-style card art.<br/><br/>Illustration, copy, and design by Choy.<br/><br/><a href="https://choytoy.github.io/e-seraph/" target="blank">Link</a>'
+    projectPanel.children[0].innerHTML = 'An in-progress oracle card web app built in HTML, CSS, and vanilla JS. Animated using CSS keyframes.<br/><br/>Featuring hand-drawn archival horror-style card art.<br/><br/>Illustration, copy, and design by Choy.<br/><br/><a href="https://choytoy.github.io/e-seraph/" target="blank">Link</a>'
     projectPanel.children[1].innerHTML = '<img src="/Images/eSeraph.PNG" class="secImg">'
 }
 
