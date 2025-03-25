@@ -14,11 +14,24 @@ var soda = document.getElementById('soda');
 var dreadB = document.getElementById('dreadBread');
 var seedGif1 = document.getElementById('seedG1');
 var botanG = document.getElementById('botanG');
+var handFront = document.getElementById('handFront');
+var handBack = document.getElementById('handBack');
 
 var illusModal = document.getElementById('illusModal');
 var illusImg = document.getElementById('illusImg');
 var illusCapt = document.getElementById('illusCapt');
 
+handFront.onclick = function () {
+    illusModal.style.display = 'block';
+    illusImg.src = this.src;
+    illusCapt.innerText = this.alt;
+}
+
+handBack.onclick = function () {
+    illusModal.style.display = 'block';
+    illusImg.src = this.src;
+    illusCapt.innerText = this.alt;
+}
 
 botanG.onclick = function () {
     illusModal.style.display = 'block';
