@@ -19,8 +19,8 @@ wcHome.onclick = function () {
 }
 
 refresh.onclick = function () {
-    projectPanel.children[0].innerHTML = 'A one-month contract with Refresh Wellness, a Canadian-owned occupational wellness startup, to "gamify" their support platform. <br/><br/>Working closely with their in-house programming team, I am conducting UX research, designing, and prototyping user flows to thoughtfully encourage user engagement and increase application accessibility.<br/><br/>Project timeline: March through April 2025.'
-    projectPanel.children[1].innerHTML = '<img src="/Images/refresh.png" class="secImg">'
+    projectPanel.children[0].innerHTML = 'A one-month contract with Refresh Wellness, a Canadian-owned occupational wellness startup, to "gamify" their support platform. <br/><br/>Working closely with their in-house programming team, I am conducting UX research, designing, and prototyping user flows to thoughtfully encourage user engagement and increase application.<br/><br/>Project timeline: March through April 2025.'
+    projectPanel.children[1].innerHTML = '<img src="/Images/figjam.png" class="secImg">'
 }
 
 eSeraph.onclick = function () {
